@@ -2,10 +2,10 @@
     "sneakers": [
       {
         "id": 1,
-        "name": " ",
-        "description": " ",
-        "image": " ",
-        "price": " "
+        "name": "Jordan Banned 1s",
+        "description": "The iconic red and black hi-top Jordan 1 debuted in 1984 and each time Michael Jordan wore them on the court, he was fined $5,000 because they broke the league's uniform rules. The rule book stated that each player must wear shoes that not only matched their uniforms, but matched the shoes worn by their teammates",
+        "image": "https://cdn.sanity.io/images/d6wcctii/production/2426e8a1f6e11d45b34379fed0138eb9b1a05d39-1070x760.webp?w=1200&q=75&fit=clip&auto=format",
+        "price": "$64.99"
       },
       {
         "id": 2,
