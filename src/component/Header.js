@@ -9,7 +9,7 @@ function Header() {
         <span className="logo" role="img">
         👟
         </span>
-        Sneaker Kings 👑
+        Sneaker Kings👑
       </h1>
       <Search />
     </header>
