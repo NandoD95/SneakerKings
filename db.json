@@ -9,66 +9,66 @@
       },
       {
         "id": 2,
-        "name": " ",
-        "description": " ",
+        "name": "Jordan Flu Game 12s",
+        "description": "This shoe was inspired during game 5 of the bulls vs jazz. In this game Micheal Jordan played with a flu and still beat the jazz ",
         "image": " ",
-        "price": " "
+        "price": "$75.00 "
       },
       {
         "id": 3,
-        "name": " ",
-        "description": " ",
+        "name": "Jordan Doernbecher 4s  ",
+        "description": "Patients from the Doernbecher Children's Hospital in Portland have designed the six shoes. Doernbecher 4s was one of the six shoes that was created",
         "image": " ",
-        "price": " "
+        "price": "$99.99 "
       },
       {
         "id": 4,
-        "name": " ",
-        "description": " ",
+        "name": "FLOM SB ",
+        "description": "Proving culture is the only real currency, the FLOM (For Love Or Money) Dunk High Pro SB was created with different denominations of printed money.",
         "image": " ",
-        "price": " "
+        "price": "$80.00 "
       },
       {
         "id": 5,
-        "name": " ",
-        "description": " ",
+        "name": "Jordan Space Jam 11s ",
+        "description": "Micheal Jordan wore this shoe in the 1996 movie Space Jam.",
         "image": " ",
-        "price": " "
+        "price": "$95.00 "
       },
       {
         "id": 6,
-        "name": " ",
-        "description": " ",
+        "name": "Nike AirMag ",
+        "description": "These shoes are the replicas from the film Back to the Future Part II.",
         "image": " ",
-        "price": " "
+        "price": "$200.00 "
       },
       {
         "id": 7,
-        "name": " ",
-        "description": " ",
+        "name": "Freddy Krueger SB ",
+        "description": "Nike was planning their annaul Halloween sneaker and came up eith the Freddy Krueger SB. Unfortunately these shoes got cancelled and Nike emplyees were sent to burn these shoes but they smuggled some pairs and sold them in Mexico.",
         "image": " ",
-        "price": " "
+        "price": "$125.00 "
       },
       {
         "id": 8,
-        "name": " ",
-        "description": " ",
+        "name": "Jordan OVO 8s ",
+        "description": "The OVO 8s are the first shoes that Jordan collaborated with an artist. These shoes are designed by Drake.",
         "image": " ",
-        "price": " "
+        "price": "$100.00 "
       },
       {
         "id": 9,
-        "name": " ",
-        "description": " ",
+        "name": "Yezzy Red Octobers ",
+        "description": "These are the final shoes created by Kanye West with Nike. ",
         "image": " ",
-        "price": " "
+        "price": "$200.00 "
       },
       {
         "id": 10,
-        "name": " ",
-        "description": " ",
+        "name": "Yezzy boost 350 Turtle Dove",
+        "description": "These shoes are the first shoes Kanye West designed with adidas. ",
         "image": " ",
-        "price": " "
+        "price": "$85.00 "
       }
     ]
   }
