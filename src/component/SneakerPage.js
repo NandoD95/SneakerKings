@@ -1,6 +1,6 @@
 import React from "react" 
 
-function SneakerPage() { 
+function SneakerPage({sneakers}) { 
 
 } 
 
