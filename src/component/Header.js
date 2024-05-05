@@ -1,5 +1,7 @@
 import React from "react";
 
+
+
 function Header() {
   return (
     <header>
@@ -9,6 +11,8 @@ function Header() {
         </span>
         Sneaker Kings👑
       </h1>
+
+
     </header>
   );
 }
