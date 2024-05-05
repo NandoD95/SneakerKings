@@ -1,7 +1,10 @@
 import React from "react" 
 
 
-function Search() { 
+function Search({searchSneaker,setSearchSneaker}) { 
+     const handleChange = (e) => { 
+        setSearchSneaker(e.target.value)
+     }
 
 
     return (
@@ -9,7 +12,9 @@ function Search() {
             <input
                 type="text"
                 id="search"
-                placeholder="search..."
+                placeholder="search..." 
+                value = {searchSneaker} 
+                onChange = {handleChange} 
             />
             <button>🔘</button>
         </form>
