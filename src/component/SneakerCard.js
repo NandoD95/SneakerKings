@@ -2,6 +2,7 @@ import React from "react"
 
 function SneakerCard({sneaker}) { 
 
+    // destructuring item object 
     const {id, name, description, image, retailprice, resellprice} = sneaker
 
     return (
