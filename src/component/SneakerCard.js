@@ -1,11 +1,11 @@
 import React from "react" 
 
-function SneakerCard({sneakers}) { 
+function SneakerCard({sneaker}) { 
 
-    const {id, name, description, image, retailprice, resellprice} = sneakers
+    const {id, name, description, image, retailprice, resellprice} = sneaker
 
     return (
-        <li className="card" data-testid="plant-item">
+        <li className="card" data-testid="sneaker-item">
           <img src={image} alt={name} />
           <h4>{name}</h4>
           <h2>Description: {description}</h2>

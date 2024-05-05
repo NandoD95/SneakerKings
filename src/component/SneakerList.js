@@ -2,11 +2,16 @@ import React from "react"
 import SneakerCard from "./SneakerCard";
 
 function SneakerList({sneakers}) { 
-    const sneakersListed = sneakers.map(sneaker => { 
-        return <SneakerCard key= {sneaker.id} sneaker={sneaker} />
-    }) 
+
+    // const sneakersListed = sneakers.map(sneaker => { 
+    //     return <SneakerCard key= {sneaker.id} sneaker={sneaker} />
+    // }) 
     return ( 
-        <ul className= "cards"> {sneakersListed}
+        <ul className= "cards"> {sneakers.map((sneaker) =>(
+            <SneakerCard 
+                id={sneaker.id}
+                sneaker={sneaker} />
+        ))}
         </ul>
     )
 
