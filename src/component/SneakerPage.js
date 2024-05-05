@@ -39,7 +39,6 @@ function SneakerPage() {
             <Search searchSneaker={searchSneaker} setSearchSneaker={setSearchSneaker}/>
             <NewSneakerForm addSneaker={addSneaker}/>
             <SneakerList sneakers={filtered}/>
-            <SneakerCard sneakers={sneakers}/> 
         </main>
     )
 } 
