@@ -1,6 +1,4 @@
 import React from "react";
-import Search from "./Search";
-
 
 function Header() {
   return (
@@ -11,7 +9,6 @@ function Header() {
         </span>
         Sneaker Kings👑
       </h1>
-      <Search />
     </header>
   );
 }

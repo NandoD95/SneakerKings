@@ -5,8 +5,8 @@ import SneakerCard from "./SneakerCard"
 import Search from "./Search"
 
 function SneakerPage() { 
-    const [sneakers, setSneakers] = useState([])
-    const [searchSneaker,setSearchSneaker]= useState("") 
+    const [sneakers, setSneakers] = useState([]) 
+    const [searchSneaker,setSearchSneaker]= useState("")
 
     const addSneaker = (newSneaker) => {
         fetch("http://localhost:3000/sneakers", {
