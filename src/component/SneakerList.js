@@ -9,7 +9,7 @@ function SneakerList({sneakers}) {
     return ( 
         <ul className= "cards"> {sneakers.map((sneaker) =>(
             <SneakerCard 
-                id={sneaker.id}
+                key={sneaker.id}
                 sneaker={sneaker} />
         ))}
         </ul>
