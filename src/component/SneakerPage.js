@@ -36,10 +36,10 @@ function SneakerPage() {
 
     return( 
         <main> 
+            <Search searchSneaker={searchSneaker} setSearchSneaker={setSearchSneaker}/>
             <NewSneakerForm addSneaker={addSneaker}/>
             <SneakerList sneakers={filtered}/>
-            <SneakerCard /> 
-            <Search searchSneaker={searchSneaker} setSearchSneaker={setSearchSneaker}/>
+            <SneakerCard sneakers={sneakers}/> 
         </main>
     )
 } 
