@@ -5,70 +5,80 @@
         "name": "Jordan Banned 1s",
         "description": "The iconic red and black hi-top Jordan 1 debuted in 1984 and each time Michael Jordan wore them on the court, he was fined $5,000 because they broke the league's uniform rules. The rule book stated that each player must wear shoes that not only matched their uniforms, but matched the shoes worn by their teammates",
         "image": "https://cdn.sanity.io/images/d6wcctii/production/2426e8a1f6e11d45b34379fed0138eb9b1a05d39-1070x760.webp?w=1200&q=75&fit=clip&auto=format",
-        "price": "$64.99"
+        "retail-price": "$64.99",
+        "resell-price": ""
       },
       {
         "id": 2,
         "name": "Jordan Flu Game 12s",
         "description": "This shoe was inspired during game 5 of the bulls vs jazz. In this game Micheal Jordan played with a flu and still beat the jazz ",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlowo7kPy9CEURrTUT3YhCwfU0zZ2OMG9z2A&usqp=CAU",
-        "price": "$75.00 "
+        "retail-price": "$75.00 ",
+        "resell-price": ""
       },
       {
         "id": 3,
         "name": "Jordan Doernbecher 4s  ",
         "description": "Patients from the Doernbecher Children's Hospital in Portland have designed the six shoes. Doernbecher 4s was one of the six shoes that was created",
         "image": " ",
-        "price": "$99.99 "
+        "retail-price": "$99.99 ",
+        "resell-price": ""
       },
       {
         "id": 4,
         "name": "FLOM SB ",
         "description": "Proving culture is the only real currency, the FLOM (For Love Or Money) Dunk High Pro SB was created with different denominations of printed money.",
         "image": " ",
-        "price": "$80.00 "
+        "retail-price": "$80.00 ",
+        "resell-price": ""
       },
       {
         "id": 5,
         "name": "Jordan Space Jam 11s ",
         "description": "Micheal Jordan wore this shoe in the 1996 movie Space Jam.",
         "image": " ",
-        "price": "$95.00 "
+        "retail-price": "$95.00 ",
+        "resell-price": ""
       },
       {
         "id": 6,
         "name": "Nike AirMag ",
         "description": "These shoes are the replicas from the film Back to the Future Part II.",
         "image": " ",
-        "price": "$200.00 "
+        "retail-price": "$200.00 ",
+        "resell-price": ""
       },
       {
         "id": 7,
         "name": "Freddy Krueger SB ",
         "description": "Nike was planning their annaul Halloween sneaker and came up eith the Freddy Krueger SB. Unfortunately these shoes got cancelled and Nike emplyees were sent to burn these shoes but they smuggled some pairs and sold them in Mexico.",
         "image": " ",
-        "price": "$125.00 "
+        "retail-price": "$125.00 ",
+        "resell-price": ""
       },
       {
         "id": 8,
         "name": "Jordan OVO 8s ",
         "description": "The OVO 8s are the first shoes that Jordan collaborated with an artist. These shoes are designed by Drake.",
         "image": " ",
-        "price": "$100.00 "
+        "retail-price": "$100.00 ",
+        "resell-price": ""
       },
       {
         "id": 9,
         "name": "Yezzy Red Octobers ",
         "description": "These are the final shoes created by Kanye West with Nike. ",
         "image": " ",
-        "price": "$200.00 "
+        "retail-price": "$200.00 ",
+        "resell-price": ""
       },
       {
         "id": 10,
         "name": "Yezzy boost 350 Turtle Dove",
         "description": "These shoes are the first shoes Kanye West designed with adidas. ",
         "image": " ",
-        "price": "$85.00 "
+        "retail-price": "$85.00 ",
+        "resell-price": ""
       }
     ]
   }

@@ -11,7 +11,8 @@ function Header() {
         </span>
         Sneaker Kings👑
       </h1>
-      
+
+
     </header>
   );
 }
