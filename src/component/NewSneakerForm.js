@@ -2,11 +2,11 @@ import React, {useState} from "react"
 
 function NewSneakerForm({addSneaker}) { 
     const[newSneaker,setNewSneaker] = useState({ 
-        name: '', 
+        name: '',
+        description:'',
         image:'', 
         retailprice:'', 
         resellprice:'', 
-        description:''
     })
 
 } 
