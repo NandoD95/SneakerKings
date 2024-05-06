@@ -9,6 +9,7 @@ function NewSneakerForm({addSneaker}) {
         resellprice:'', 
     })
 
+    //updates newSneaker based on users input in form and keeps data synchronized
     const handleChange = (e) => {
         const { name, value } = e.target;
         setNewSneaker((prevData) => ({
@@ -18,6 +19,7 @@ function NewSneakerForm({addSneaker}) {
     };
 
 
+    // prevents the default behavior, adding new sneaker data and then resetting form back to its empty value
     const handleSubmit = (e) => {
         e.preventDefault();
         addSneaker(newSneaker);
