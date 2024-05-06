@@ -19,9 +19,9 @@ function SneakerCard({sneaker}) {
           <p>Retail Price: {retailprice}</p>
           <p>Resell Price: {resellprice}</p> 
           {click ? (
-        <button onClick={handleClick} className="primary">In Stock</button>
+        <button onClick={handleClick} className="primary">Buy Now</button>
       ) : (
-        <button onClick={handleClick}>Out of Stock</button>
+        <button onClick={handleClick}>SOLD</button>
       )}
         </li>
       );
