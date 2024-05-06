@@ -5,8 +5,9 @@ function SneakerCard({sneaker, setSneakers}) {
 
     // destructuring item object 
     const {id, name, description, image, retailprice, resellprice} = sneaker
-    const [click,setClick] = useState(true)  
+    const [click, setClick] = useState(true)  
 
+    // function todo the opposite of what the button reflects
     function handleClick() { 
       setClick(!click) 
     } 

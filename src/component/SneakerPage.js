@@ -7,7 +7,7 @@ function SneakerPage() {
     // states to store the logged information 
     const [sneakers, setSneakers] = useState([]) 
     const [searchSneaker,setSearchSneaker]= useState("")
-    const [sneakerSize, setSneakerSize] = useState("")
+    const [sneakerSize, setSneakerSize] = useState("ALL")
 
     // function to add sneaker and post to db.json
     const addSneaker = (newSneaker) => {
