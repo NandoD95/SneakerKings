@@ -1,7 +1,7 @@
 import React from "react" 
 import SneakerCard from "./SneakerCard";
 
-function SneakerList({sneakers}) { 
+function SneakerList({sneakers, setSneakerSize}) { 
 
     // CREATING A COPY OF THE ORIGINAL ARRAY STORED IN sneakers TO CREATE A NEW ARRAY TO DISPLAY IN REACT 
     // const sneakersListed = sneakers.map(sneaker => { 
@@ -12,7 +12,8 @@ function SneakerList({sneakers}) {
         <ul className= "cards"> {sneakers.map((sneaker) =>(
             <SneakerCard 
                 key={sneaker.id}
-                sneaker={sneaker} />
+                sneaker={sneaker} 
+                setSneakers={setSneakerSize}/>
         ))}
         </ul>
     )
