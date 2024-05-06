@@ -26,7 +26,7 @@ function NewSneakerForm({addSneaker}) {
           description: "",
           image: "",
           retailprice: "",
-          resellprice: ""
+          resellprice: "",
         });
       };
 
@@ -35,10 +35,10 @@ function NewSneakerForm({addSneaker}) {
            <h2>Add Sneakers For Sale</h2>
            <form onSubmit={handleSubmit}>
              <input type="text" name="name" value={newSneaker.name} placeholder="Sneaker Name" onChange={handleChange}/>
-             <input type="text" name="name" value={newSneaker.description} placeholder="Description" onChange={handleChange} />
+             <input type="text" name="description" value={newSneaker.description} placeholder="Description" onChange={handleChange} />
              <input type="text" name="image" value={newSneaker.image} placeholder="Image URL" onChange={handleChange}/>
-             <input type="number" name="retail-price" value={newSneaker.retailprice}  placeholder="Retail Price" onChange={handleChange}/>
-             <input type="number" name="resell-price" value={newSneaker.resellprice} placeholder="Resell Price" onChange={handleChange} />
+             <input type="number, text" name="retailprice" value={newSneaker.retailprice} placeholder="Retail Price" onChange={handleChange}/>
+             <input type="number, text" name="resellprice" value={newSneaker.resellprice} placeholder="Resell Price" onChange={handleChange} />
              <button type="submit">Add Sneaker</button>
            </form>
         </div>
