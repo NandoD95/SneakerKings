@@ -39,7 +39,7 @@ function NewSneakerForm({addSneaker}) {
              <input type="text" name="image" value={newSneaker.image} placeholder="Image URL" onChange={handleChange}/>
              <input type="number" name="retail-price" value={newSneaker.retailprice}  placeholder="Retail Price" onChange={handleChange}/>
              <input type="number" name="resell-price" value={newSneaker.resellprice} placeholder="Resell Price" onChange={handleChange} />
-             <button type="submit">Add Plant</button>
+             <button type="submit">Add Sneaker</button>
            </form>
         </div>
     )
