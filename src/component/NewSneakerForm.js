@@ -5,7 +5,8 @@ function NewSneakerForm({addSneaker}) {
         name: '', 
         image:'', 
         retailprice:'', 
-        resellprice:''
+        resellprice:'', 
+        description:''
     })
 
 } 
