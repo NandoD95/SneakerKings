@@ -1,11 +1,11 @@
 import React from "react"
 
-function SneakerSize({ setSneakerSize }) {
+function SneakerSize({ setSneakers }) {
     // The option menu to select the size
     return (
         <select
             className="Sizes"
-            onChange={(e) => setSneakerSize(e.target.value)}>
+            onChange={(e) => setSneakers(e.target.value)}>
             <option>All</option>
             <option>4</option>
             <option>4.5</option>
