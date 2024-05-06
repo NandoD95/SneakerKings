@@ -7,7 +7,7 @@ function SneakerPage() {
     // states to store the logged information 
     const [sneakers, setSneakers] = useState([]) 
     const [searchSneaker,setSearchSneaker]= useState("")
-    const [sneakerSize, setSneakerSize] = useState("ALL")
+    const [sneakerSize, setSneakerSize] = useState("All")
 
     // function to add sneaker and post to db.json
     const addSneaker = (newSneaker) => {
@@ -25,7 +25,8 @@ function SneakerPage() {
     // filter out sneakers to match the searched sneaker 
     const filtered = sneakers.filter((sneaker) => { 
         return sneaker.name.toLowerCase().includes(searchSneaker.toLowerCase())
-    })
+    }) 
+    // create a second dot filter that is going to return in stock or sold out whatever the user chooses in size.
 
     // fetches on load 
     useEffect(() =>{
