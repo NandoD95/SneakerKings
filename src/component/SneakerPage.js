@@ -1,13 +1,16 @@
 import React,{useState, useEffect} from "react" 
 import NewSneakerForm from "./NewSneakerForm"
 import SneakerList from "./SneakerList" 
-import Search from "./Search"
+import Search from "./Search" 
+import { useParams } from "react-router-dom";
 
 function SneakerPage() { 
     // states to store the logged information 
     const [sneakers, setSneakers] = useState([]) 
     const [searchSneaker,setSearchSneaker]= useState("")
-    const [sneakerSize, setSneakerSize] = useState("All")
+    const [sneakerSize, setSneakerSize] = useState("All") 
+    const params = useParams() 
+    const sneakerId = params.id
 
     // function to add sneaker and post to db.json
     const addSneaker = (newSneaker) => {
@@ -39,12 +42,14 @@ function SneakerPage() {
     }, [])
 
 
-    return( 
+    return(  
+        
         <main> 
             <Search searchSneaker={searchSneaker} setSearchSneaker={setSearchSneaker}/>
-            <NewSneakerForm addSneaker={addSneaker}/>
+            {/* <NewSneakerForm addSneaker={addSneaker}/> */}
             <SneakerList sneakers={filtered} setSneakerSize={setSneakerSize}/>
-        </main>
+        </main> 
+        
     )
 } 
 
