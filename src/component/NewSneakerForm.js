@@ -1,6 +1,9 @@
 import React, {useState} from "react" 
 
-function NewSneakerForm({addSneaker}) { 
+function NewSneakerForm() { 
+  // states to store the logged information 
+  const [sneakers, setSneakers] = useState([])
+
     const[newSneaker,setNewSneaker] = useState({ 
         name: '',
         description:'',
@@ -31,6 +34,19 @@ function NewSneakerForm({addSneaker}) {
           resellprice: "",
         });
       };
+
+    // function to add sneaker and post to db.json
+    const addSneaker = (newSneaker) => {
+      fetch("http://localhost:3000/sneakers", {
+          method: "POST",
+          headers: {
+              "Content-type": "Application/json"
+          },
+          body: JSON.stringify(newSneaker)
+      })
+      .then((resp)=> resp.json())
+      .then((data)=> setSneakers([...sneakers, data]))
+  } 
 
     return (
         <div className="add-sneaker">

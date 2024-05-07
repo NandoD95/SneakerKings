@@ -1,7 +1,7 @@
 import React from "react"
 // import './App.css'; 
-import Header from "./Header"
-import SneakerPage from "./SneakerPage"; 
+// import Header from "./Header"
+// import SneakerPage from "./SneakerPage"; 
 import NavBar from "./NavBar";
 import { Outlet } from "react-router-dom";
 

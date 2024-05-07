@@ -4,10 +4,10 @@ import {Link} from 'react-router-dom'
 
 
 function SneakerCard({sneaker, setSneakers,sneakerId}) { 
-
-
     // destructuring item object 
     const {id, name, description, image, retailprice, resellprice} = sneaker
+    
+    //
     const [click, setClick] = useState(true)  
 
     // function todo the opposite of what the button reflects
@@ -15,12 +15,11 @@ function SneakerCard({sneaker, setSneakers,sneakerId}) {
       setClick(!click) 
     } 
 
-
     return (
         <li className="card" data-testid="sneaker-item">
           <img src={image} alt={name} />
           <h4>{name}</h4>
-          <SneakerSize setSneakers={filterSize}/>
+          <SneakerSize setSneakers={setSneakers}/>
           <h2> Product Description: <div>{description}</div></h2>
           <Link to={`/SneakerPage/${sneakerId}`}>ViewInfo</Link>
           <p>Retail Price: {retailprice}</p>

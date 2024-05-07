@@ -1,5 +1,4 @@
 import React,{useState, useEffect} from "react" 
-import NewSneakerForm from "./NewSneakerForm"
 import SneakerList from "./SneakerList" 
 import Search from "./Search" 
 import { useParams } from "react-router-dom";
@@ -11,19 +10,6 @@ function SneakerPage() {
     const [sneakerSize, setSneakerSize] = useState("All") 
     const params = useParams() 
     const sneakerId = params.id
-
-    // function to add sneaker and post to db.json
-    const addSneaker = (newSneaker) => {
-        fetch("http://localhost:3000/sneakers", {
-            method: "POST",
-            headers: {
-                "Content-type": "Application/json"
-            },
-            body: JSON.stringify(newSneaker)
-        })
-        .then((resp)=> resp.json())
-        .then((data)=> setSneakers([...sneakers, data]))
-    } 
 
     // filter out sneakers to match the searched sneaker 
     const filtered = sneakers.filter((sneaker) => { 
@@ -50,8 +36,6 @@ function SneakerPage() {
         
         <main> 
             <Search searchSneaker={searchSneaker} setSearchSneaker={setSearchSneaker}/>
-
-            {/* <NewSneakerForm addSneaker={addSneaker}/> */}
             <SneakerList sneakers={filtered} setSneakerSize={setSneakerSize}/>
         </main> 
         
