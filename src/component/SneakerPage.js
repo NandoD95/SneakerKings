@@ -28,9 +28,13 @@ function SneakerPage() {
     // filter out sneakers to match the searched sneaker 
     const filtered = sneakers.filter((sneaker) => { 
         return sneaker.name.toLowerCase().includes(searchSneaker.toLowerCase())
-    }) 
+    })
+
     // create a second dot filter that is going to return in stock or sold out whatever the user chooses in size.
-    
+    const filterSize = sneakers.filter ((sneaker)=> {
+        return sneaker.avaliblesizes
+    })
+
     // fetches on load 
     useEffect(() =>{
         fetch("http://localhost:3000/sneakers")
@@ -46,10 +50,12 @@ function SneakerPage() {
         
         <main> 
             <Search searchSneaker={searchSneaker} setSearchSneaker={setSearchSneaker}/>
+
             {/* <NewSneakerForm addSneaker={addSneaker}/> */}
             <SneakerList sneakers={filtered} setSneakerSize={setSneakerSize}/>
         </main> 
         
+
     )
 } 
 
