@@ -3,7 +3,7 @@ import SneakerSize from "./SneakerSize"
 import {Link} from 'react-router-dom'
 
 
-function SneakerCard({sneaker, setSneakers,sneakerId}) { 
+function SneakerCard({sneaker, setSneakersSize,sneakerId}) { 
     // destructuring item object 
     const {id, name, description, image, retailprice, resellprice} = sneaker
     
@@ -19,9 +19,9 @@ function SneakerCard({sneaker, setSneakers,sneakerId}) {
         <li className="card" data-testid="sneaker-item">
           <img src={image} alt={name} />
           <h4>{name}</h4>
-          <SneakerSize setSneakers={setSneakers}/>
+          <SneakerSize setSneakersSize={setSneakersSize}/>
           <h2> Product Description: <div>{description}</div></h2>
-          <Link to={`/SneakerPage/${sneakerId}`}>ViewInfo</Link>
+          <Link to={`/SneakerPage/${sneaker.id}`}>ViewInfo</Link>
           <p>Retail Price: {retailprice}</p>
           <p>Resell Price: {resellprice}</p> 
           {click ? (

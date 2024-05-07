@@ -18,8 +18,11 @@ function SneakerPage() {
 
     // create a second dot filter that is going to return in stock or sold out whatever the user chooses in size.
     const filterSize = sneakers.filter ((sneaker)=> {
-        return sneaker.avaliblesizes
+        // console.log(typeof sneakerSize)
+        // console.log(sneaker.avaliblesizes.includes(6))
+        return sneaker.avaliblesizes.includes(parseFloat(sneakerSize))
     })
+    // console.log(filterSize)
 
     // fetches on load 
     useEffect(() =>{
