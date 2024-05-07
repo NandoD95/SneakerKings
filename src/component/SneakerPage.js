@@ -27,7 +27,7 @@ function SneakerPage() {
         return sneaker.name.toLowerCase().includes(searchSneaker.toLowerCase())
     }) 
     // create a second dot filter that is going to return in stock or sold out whatever the user chooses in size.
-
+    
     // fetches on load 
     useEffect(() =>{
         fetch("http://localhost:3000/sneakers")
