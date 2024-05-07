@@ -1,4 +1,5 @@
-import React from "react";
+import React from "react"; 
+import SneakerPage from "./SneakerPage";
 
 function Header() {
   return (
@@ -9,7 +10,7 @@ function Header() {
         </span>
         Sneaker Kings👑
       </h1>
-
+         <SneakerPage />
 
     </header>
   );
