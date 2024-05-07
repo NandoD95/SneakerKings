@@ -1,7 +1,7 @@
 import React,{useState} from "react" 
 import SneakerSize from "./SneakerSize"
 
-function SneakerCard({sneaker, setSneakers}) { 
+function SneakerCard({sneaker, setSneakers, filterSize}) { 
 
     // destructuring item object 
     const {id, name, description, image, retailprice, resellprice} = sneaker
@@ -17,7 +17,7 @@ function SneakerCard({sneaker, setSneakers}) {
         <li className="card" data-testid="sneaker-item">
           <img src={image} alt={name} />
           <h4>{name}</h4>
-          <SneakerSize setSneakers={setSneakers}/>
+          <SneakerSize setSneakers={filterSize}/>
           <h2> Product Description: <div>{description}</div></h2>
           <p>Retail Price: {retailprice}</p>
           <p>Resell Price: {resellprice}</p> 
