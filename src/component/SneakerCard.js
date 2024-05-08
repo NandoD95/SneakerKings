@@ -15,13 +15,14 @@ function SneakerCard({sneaker, setSneakersSize,sneakerId}) {
       setClick(!click) 
     } 
 
+
     return (
         <li className="card" data-testid="sneaker-item">
           <img src={image} alt={name} />
           <h4>{name}</h4>
           <SneakerSize setSneakersSize={setSneakersSize}/>
           <h2> Product Description: <div>{description}</div></h2>
-          <Link to={`/sneakers/${sneakerId}`}>View Info</Link>
+          <Link>View Info</Link>
           <p>Retail Price: {retailprice}</p>
           <p>Resell Price: {resellprice}</p> 
           {click ? (
