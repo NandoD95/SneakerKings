@@ -1,8 +1,9 @@
-import React,{useState} from "react" 
+import React from "react" 
 
 
 function Search({searchSneaker,setSearchSneaker}) { 
 
+    // handle the searched sneaker
      const handleChange = (e) => { 
         setSearchSneaker(e.target.value)
      }

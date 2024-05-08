@@ -1,15 +1,12 @@
 import React,{useState, useEffect} from "react" 
 import SneakerList from "./SneakerList" 
 import Search from "./Search" 
-// import { useParams } from "react-router-dom";
 
 function SneakerPage() { 
     // states to store the logged information 
     const [sneakers, setSneakers] = useState([]) 
     const [searchSneaker,setSearchSneaker]= useState("")
     const [sneakerSize, setSneakerSize] = useState("All") 
-    // const params = useParams() 
-    // const sneakerId = params.id
 
     // filter out sneakers to match the searched sneaker 
     const filtered = sneakers.filter((sneaker) => { 

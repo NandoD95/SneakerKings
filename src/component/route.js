@@ -3,6 +3,7 @@ import Header from "./Header";
 import App from "./App"; 
 import ErrorPage from "./ErrorPage"; 
 import SneakerCard from "./SneakerCard";
+import SneakerDetail from "./SneakerDetail";
 
 const routes =[ 
     { 
@@ -23,7 +24,11 @@ const routes =[
             path:"/SneakerCard", 
             element: <SneakerCard /> , 
             errorElement: <ErrorPage />
-
+          },
+          {
+            path: "/SneakerDetail/:id",
+            element: <SneakerDetail />,
+            errorElement: <ErrorPage />
           }
       ]
     }

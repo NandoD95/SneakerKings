@@ -21,15 +21,7 @@ function SneakerCard({sneaker, setSneakersSize}) {
           <img src={image} alt={name} />
           <h4>{sneaker.name}</h4>
           <SneakerSize setSneakersSize={setSneakersSize}/>
-          <h2> Product Description: <div>{description}</div></h2>
-          <Link to={{
-            pathname: `/sneakers/${id}`,
-            state: {
-              image,
-              name,
-              description
-            }
-          }}>View Info</Link>
+          <p><Link to={`/SneakerDetail/${id}`}>View Info</Link></p>
           <p>Retail Price: {retailprice}</p>
           <p>Resell Price: {resellprice}</p> 
           {click ? (
