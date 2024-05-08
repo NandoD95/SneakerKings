@@ -20,11 +20,11 @@ const routes =[
             element: <NewSneakerForm />, 
             errorElement: <ErrorPage />
           } ,
-          { 
-            path:"/SneakerCard", 
-            element: <SneakerCard /> , 
-            errorElement: <ErrorPage />
-          },
+          // { 
+          //   path:"/SneakerCard", 
+          //   element: <SneakerCard /> , 
+          //   errorElement: <ErrorPage />
+          // },
           {
             path: "/SneakerDetail/:id",
             element: <SneakerDetail />,
