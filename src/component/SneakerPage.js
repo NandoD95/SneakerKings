@@ -17,6 +17,7 @@ function SneakerPage() {
     })
 
     // create a second dot filter that is going to return in stock or sold out whatever the user chooses in size.
+    // come back to this code ... working progress how to get this to work
     const filterSize = sneakers.filter ((sneaker)=> {
         // console.log(typeof sneakerSize)
         // console.log(sneaker.avaliblesizes.includes(6))
@@ -39,7 +40,7 @@ function SneakerPage() {
         
         <main> 
             <Search searchSneaker={searchSneaker} setSearchSneaker={setSearchSneaker}/>
-            <SneakerList sneakers={filtered} setSneakerSize={setSneakerSize}/>
+            <SneakerList sneakers={filtered} setSneakerSize={setSneakerSize} sneakerId={sneakerId}/>
         </main> 
         
 
