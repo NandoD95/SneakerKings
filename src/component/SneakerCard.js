@@ -21,7 +21,7 @@ function SneakerCard({sneaker, setSneakersSize,sneakerId}) {
           <h4>{name}</h4>
           <SneakerSize setSneakersSize={setSneakersSize}/>
           <h2> Product Description: <div>{description}</div></h2>
-          <Link to={`/SneakerPage/${sneakerId}`}>ViewInfo</Link>
+          <Link to={`/sneakers/${sneakerId}`}>View Info</Link>
           <p>Retail Price: {retailprice}</p>
           <p>Resell Price: {resellprice}</p> 
           {click ? (
