@@ -7,10 +7,10 @@ function ErrorPage () {
   return( 
     <>
       <header>
-        Hey!
+        Whats Going ON!? Got lost ? 
       </header>
       <main>
-        <h1>Oops! Looks like something went wrong.</h1>
+        <h1>Let's get you guys back on track on getting your dream sneakers from 👟Sneaker Kings👑</h1>
       </main>
     </>
   );
