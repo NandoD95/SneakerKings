@@ -1,6 +1,7 @@
 import NewSneakerForm from "./NewSneakerForm"; 
 import Header from "./Header";
 import App from "./App"; 
+import ErrorPage from "./ErrorPage";
 
 const routes =[ 
     { 
@@ -9,11 +10,13 @@ const routes =[
       children: [ 
         { 
             path: "/",
-            element:<Header />
+            element:<Header />,
+            errorElement: <ErrorPage />
         },
         { 
             path: "/NewSneakerForm",
-            element: <NewSneakerForm />
+            element: <NewSneakerForm />, 
+            errorElement: <ErrorPage />
           } 
       ]
     }
