@@ -7,7 +7,7 @@ function SneakerCard({sneaker, setSneakersSize,sneakerId}) {
     // destructuring item object 
     const {id, name, description, image, retailprice, resellprice} = sneaker
     
-    //
+    // declaring the click state to true
     const [click, setClick] = useState(true)  
 
     // function todo the opposite of what the button reflects
