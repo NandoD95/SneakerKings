@@ -3,12 +3,11 @@ import SneakerPage from "./SneakerPage";
 
 function Header() {
   return (
-    <header>
+    <header id="header">
       <h1>
-        <span className="logo" role="img">
-        👟
-        </span>
-        Sneaker Kings👑
+        {/* <span className="logo" role="img"> */}
+        👟Sneaker Kings👑
+        {/* </span> */}
       </h1>
          <SneakerPage />
 
