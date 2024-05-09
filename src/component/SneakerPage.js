@@ -2,7 +2,7 @@ import React,{useState, useEffect} from "react"
 import SneakerList from "./SneakerList" 
 import Search from "./Search" 
 
-function SneakerPage() { 
+ function SneakerPage() { 
     // states to store the logged information 
     const [sneakers, setSneakers] = useState([]) 
     const [searchSneaker,setSearchSneaker]= useState("")
