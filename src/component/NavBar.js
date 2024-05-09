@@ -6,7 +6,7 @@ function NavBar() {
             <NavLink to='/'>Home</NavLink> 
             <div>
             <NavLink to='/NewSneakerForm'>New Sneaker Form</NavLink>
-            <div><NavLink to='/SneakerCard'>Sneaker Card </NavLink></div>
+            {/* <div><NavLink to='/SneakerCard'>Sneaker Card </NavLink></div> */}
             </div>
         </nav>
     );
