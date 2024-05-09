@@ -14,11 +14,10 @@ function Search({searchSneaker,setSearchSneaker}) {
             <input
                 type="text"
                 id="search"
-                placeholder="search..." 
+                placeholder="Search..." 
                 value = {searchSneaker} 
                 onChange = {handleChange} 
             />
-            <button>🔘</button>
         </form>
     )
 } 

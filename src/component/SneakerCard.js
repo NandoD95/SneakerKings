@@ -10,7 +10,7 @@ function SneakerCard({sneaker, setSneakersSize}) {
     // declaring the click state to true
     const [click, setClick] = useState(true)  
 
-    // function todo the opposite of what the button reflects
+    // function to switch the states of the variable click
     function handleClick() { 
       setClick(!click) 
     } 

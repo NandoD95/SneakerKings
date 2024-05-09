@@ -50,15 +50,17 @@ function NewSneakerForm() {
 
     return (
         <div className="add-sneaker">
-           <h2>Add Sneakers For Sale</h2>
-           <form onSubmit={handleSubmit}>
-             <input type="text" name="name" value={newSneaker.name} placeholder="Sneaker Name" onChange={handleChange}/>
-             <input type="text" name="description" value={newSneaker.description} placeholder="Description" onChange={handleChange} />
-             <input type="text" name="image" value={newSneaker.image} placeholder="Image URL" onChange={handleChange}/>
-             <input type="number, text" name="retailprice" value={newSneaker.retailprice} placeholder="Retail Price" onChange={handleChange}/>
-             <input type="number, text" name="resellprice" value={newSneaker.resellprice} placeholder="Resell Price" onChange={handleChange} />
-             <button type="submit">Add Sneaker</button>
-           </form>
+           <h3>Add Sneakers For Sale</h3>
+              <div>
+                  <form onSubmit={handleSubmit}>
+                    <input type="text, number" name="name" value={newSneaker.name} placeholder="Sneaker Name" onChange={handleChange}/>
+                    <input type="text, number" name="description" value={newSneaker.description} placeholder="Description" onChange={handleChange} />
+                    <input type="text, number" name="image" value={newSneaker.image} placeholder="Image URL" onChange={handleChange}/>
+                    <input type="text, number" name="retailprice" value={newSneaker.retailprice} placeholder="Retail Price" onChange={handleChange}/>
+                    <input type="text, number" name="resellprice" value={newSneaker.resellprice} placeholder="Resell Price" onChange={handleChange} />
+                    <button id="button" type="submit">Add Sneaker</button>
+                  </form>
+              </div>
         </div>
     )
 } 

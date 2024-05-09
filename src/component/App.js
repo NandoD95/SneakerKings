@@ -1,7 +1,6 @@
 import React from "react"
-import '../App.css'
-// import Header from "./Header"
-// import SneakerPage from "./SneakerPage"; 
+// two dots to get into the parent folder for APP.CSS
+import '../App.css' 
 import NavBar from "./NavBar";
 import { Outlet } from "react-router-dom";
 
