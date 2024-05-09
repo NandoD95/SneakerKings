@@ -39,8 +39,6 @@ import Search from "./Search"
             <Search searchSneaker={searchSneaker} setSearchSneaker={setSearchSneaker}/>
             <SneakerList sneakers={filtered} setSneakerSize={setSneakerSize} />
         </main> 
-        
-
     )
 } 
 

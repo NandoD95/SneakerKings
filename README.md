@@ -1,8 +1,8 @@
 # 👟 Sneaker Kings 👑
 by Joel & Fernando
 
-## Description: 
-Welcome to sneaker kings where you can buy and add new sneakers. Each shoe listed in the website has the name of the shoe, description of the shoe, there is a size drop down for all the shoes, retail and resell price of the shoe. Also on the top right of the webpage, you can add new sneakers to the website.  
+## Description 
+Welcome to sneaker kings where you can buy and add new sneakers. Each shoe listed in the website has the name of the shoe, description of the shoe, there is a size drop down for all the shoes, retail and resell price of the shoe. Also on the top right of the webpage, you can add new sneakers to the website.
 
 
 ## How to run and install the project:  
