@@ -18,10 +18,10 @@ function SneakerDetail() {
 
 // what view info button shows
   return (
-    <div>
+    <div className='detailpage'>
       <h2>{name}</h2>
       <img src={image} alt={name} />
-      <h2>Product Decription: {description}</h2>
+      <h2>Product Decription: <div>{description}</div></h2>
       <h3>Resell Price: {resellprice}</h3>
     </div>
   );

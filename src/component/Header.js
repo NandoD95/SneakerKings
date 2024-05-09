@@ -2,13 +2,11 @@ import React from "react";
 import SneakerPage from "./SneakerPage";
 
 function Header() {
+  // header page
   return (
-    <header>
+    <header id="header">
       <h1>
-        <span className="logo" role="img">
-        👟
-        </span>
-        Sneaker Kings👑
+        👟Sneaker Kings👑
       </h1>
          <SneakerPage />
 
