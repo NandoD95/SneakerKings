@@ -105,7 +105,7 @@
     {
       "id": "7",
       "name": "2007 Freddy Krueger SB ",
-      "description": "Nike was planning their annaul Halloween sneaker and came up eith the Freddy Krueger SB. Unfortunately these shoes got cancelled and Nike employees were sent to burn these shoes but they smuggled some pairs and sold them in Mexico.",
+      "description": "Nike was planning their annual Halloween sneaker and came up eith the Freddy Krueger SB. Unfortunately these shoes got cancelled and Nike employees were sent to burn these shoes but they smuggled some pairs and sold them in Mexico.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyy-QrXS76WEAH5b2S8eOlR9EoWp2VknwQBg&usqp=CAU",
       "retailprice": "NEVER SEEN PUBLIC EYES",
       "resellprice": "$130,000",
@@ -169,6 +169,14 @@
         10.5,
         11
       ]
+    },
+    {
+      "id": "fda4",
+      "name": "Bottega Veneta Heels",
+      "description": "Beautiful pink heels that will go with any outfit you wear. Guaranteed to turn heads",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTRqVMo8Oj9C5yik6AaKGBoty3-V2RB6J_Ow&usqp=CAU",
+      "retailprice": "$600",
+      "resellprice": "$350"
     }
   ]
 }
